@@ -1,0 +1,12 @@
+C:\Users\Александр\source\repos\bebe\bebe\x64\Debug\bebe.vcxproj.AssemblyReference.cache
+C:\Users\Александр\source\repos\bebe\bebe\x64\Debug\bebe.MyForm.resources
+C:\Users\Александр\source\repos\bebe\bebe\x64\Debug\bebe.vcxproj.GenerateResource.cache
+C:\Users\Александр\Documents\GitHub\PSTU-RIS-25-2b_Kosoturov.A.A_labs\IT_project_1-labcheck\bebe\bebe\x64\Debug\bebe.vcxproj.AssemblyReference.cache
+C:\Users\Александр\Documents\GitHub\PSTU-RIS-25-2b_Kosoturov.A.A_labs\IT_project_1-labcheck\bebe\bebe\x64\Debug\bebe.MyForm.resources
+C:\Users\Александр\Documents\GitHub\PSTU-RIS-25-2b_Kosoturov.A.A_labs\IT_project_1-labcheck\bebe\bebe\x64\Debug\bebe.vcxproj.GenerateResource.cache
+E:\Documents\GitHub\PSTU-RIS-25-2b_Kosoturov.A.A_labs\IT_project_1-labcheck\bebe\bebe\x64\Debug\bebe.vcxproj.AssemblyReference.cache
+E:\Documents\GitHub\PSTU-RIS-25-2b_Kosoturov.A.A_labs\IT_project_1-labcheck\bebe\bebe\x64\Debug\bebe.MAIN_Form.resources
+E:\Documents\GitHub\PSTU-RIS-25-2b_Kosoturov.A.A_labs\IT_project_1-labcheck\bebe\bebe\x64\Debug\bebe.vcxproj.GenerateResource.cache
+E:\Documents\GitHub\PSTU-RIS-25-2b_Kosoturov.A.A_labs\IT_project_1-labcheck\Project_Code_source\bebe\x64\Debug\bebe.vcxproj.AssemblyReference.cache
+E:\Documents\GitHub\PSTU-RIS-25-2b_Kosoturov.A.A_labs\IT_project_1-labcheck\Project_Code_source\bebe\x64\Debug\bebe.MAIN_Form.resources
+E:\Documents\GitHub\PSTU-RIS-25-2b_Kosoturov.A.A_labs\IT_project_1-labcheck\Project_Code_source\bebe\x64\Debug\bebe.vcxproj.GenerateResource.cache
