@@ -88,7 +88,7 @@ public:
 		if (!validPath)
 		{
 			item->SubItems[Status]->Text = "not";
-			item->SubItems[PAth]->Text = "INVALID PATH";
+			item->SubItems[Task]->Text = "INVALID PATH";
 			item->BackColor = Color::Red;
 			return;
 		}
@@ -98,6 +98,26 @@ public:
 		bool needReport = item->SubItems[Report]->Text == "True";
 		bool needIdef = item->SubItems[IDEF0]->Text == "True";
 		bool hasAnyRequirement = needBD || needCode || needReport || needIdef;
+
+		// Проверка дедлайна
+		bool isDeadlineToday = false;
+
+		DateTime today = DateTime::Today;
+		DateTime deadline;
+
+		if (DateTime::TryParse(item->SubItems[Deadline]->Text, deadline))
+		{
+			TimeSpan diff = deadline.Date - today;
+
+			if (diff.Days == 0)
+			{
+				isDeadlineToday = true;
+			}
+			item->SubItems[Deadline]->BackColor =
+				isDeadlineToday
+				? Color::IndianRed
+				: item->BackColor;
+		}
 
 		if (!hasAnyRequirement)
 		{

@@ -36,6 +36,24 @@ Class JsonStorage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     RemoveSelectedItem(ListView, String): PrivateScope, Public, Static, HideBySig
     Save(ListView, String): PrivateScope, Public, Static, HideBySig
     Load(ListView, String): PrivateScope, Public, Static, HideBySig
+Class LabItem: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 Id : Public
+    System.String Title : Public
+    System.String Status : Public
+    System.String Deadline : Public
+    System.String Comment : Public
+    System.String Task : Public
+    System.String Path : Public
+    Boolean NeedBD : Public
+    Boolean NeedCode : Public
+    Boolean NeedReport : Public
+    Boolean NeedIDEF : Public
+Struct LabColumns: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
 Class bebe.INPUT_LAB_Form: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
