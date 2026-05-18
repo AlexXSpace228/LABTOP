@@ -81,14 +81,14 @@ public:
 		if (!item || item->SubItems->Count < 11)
 			return; //Это защищает программу от ошибок доступа к несуществующим данным.
 
-		String^ path = item->SubItems[PAth]->Text; //Из колонки Path считывается путь:
+		String^ path = item->SubItems[LabColumns::PAth]->Text; //Из колонки Path считывается путь:
 		bool validPath = !String::IsNullOrWhiteSpace(path) && Directory::Exists(path);
 		//проверяется: путь не пустой, папка существует
 		//Если путь некорректен: статус = "not", задача = "INVALID PATH", строка подсвечивается красным цветом
 		if (!validPath)
 		{
 			item->SubItems[Status]->Text = "not";
-			item->SubItems[Task]->Text = "INVALID PATH";
+			item->SubItems[PAth]->Text = "INVALID PATH";
 			item->BackColor = Color::Red;
 			return;
 		}
@@ -98,26 +98,6 @@ public:
 		bool needReport = item->SubItems[Report]->Text == "True";
 		bool needIdef = item->SubItems[IDEF0]->Text == "True";
 		bool hasAnyRequirement = needBD || needCode || needReport || needIdef;
-
-		// Проверка дедлайна
-		bool isDeadlineToday = false;
-
-		DateTime today = DateTime::Today;
-		DateTime deadline;
-
-		if (DateTime::TryParse(item->SubItems[Deadline]->Text, deadline))
-		{
-			TimeSpan diff = deadline.Date - today;
-
-			if (diff.Days == 0)
-			{
-				isDeadlineToday = true;
-			}
-			item->SubItems[Deadline]->BackColor =
-				isDeadlineToday
-				? Color::IndianRed
-				: item->BackColor;
-		}
 
 		if (!hasAnyRequirement)
 		{

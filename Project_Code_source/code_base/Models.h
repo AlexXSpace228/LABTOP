@@ -2,7 +2,7 @@
 using namespace System;
 
 //Модель данных лабораторной работы
-public ref class LabItem
+ref class LabItem
 {
 public:
     int Id; // - уникальный идентификатор
@@ -25,7 +25,7 @@ public:
 //num LabColumns содержит индексы колонок ListView.
 //Пример: selectedItem->SubItems[LabColumns::Task]
 
-public enum LabColumns
+enum LabColumns
 {
     Id = 0,
     Title = 1,
