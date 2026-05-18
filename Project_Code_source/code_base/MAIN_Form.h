@@ -31,17 +31,17 @@ namespace bebe {
 
 			//Формируется структура таблицы лабораторных работ
 			//Важно: порядок колонок строго соответствует SubItems у ListViewItem
-			listView1->Columns->Add("ID", 50);
-			listView1->Columns->Add("Название", 150);
+			listView1->Columns->Add("ID", 0); //*
+			listView1->Columns->Add("Название", 200);
 			listView1->Columns->Add("Статус", 120);
 			listView1->Columns->Add("Дедлайн", 120);
-			listView1->Columns->Add("Комментарий", 250);
+			listView1->Columns->Add("Комментарий", 200);
 			listView1->Columns->Add("Что нужно сделать", 250);
-			listView1->Columns->Add("Расположение",120);
-			listView1->Columns->Add("BD", 20);
-			listView1->Columns->Add("code", 20);
-			listView1->Columns->Add("report", 20);
-			listView1->Columns->Add("idef", 20);
+			listView1->Columns->Add("Расположение",150);
+			listView1->Columns->Add("BD", 10);
+			listView1->Columns->Add("code", 10);
+			listView1->Columns->Add("report", 10);
+			listView1->Columns->Add("idef", 10);
 
 			//загрузка сохранённых лабораторных работ из JSON-файла при запуске
 			JsonStorage::LoadListViewFromJsonSimple(listView1, "1tgf.json");
@@ -142,7 +142,39 @@ private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) 
 
 private: System::Void menuStrip1_ItemClicked(System::Object^ sender, System::Windows::Forms::ToolStripItemClickedEventArgs^ e) { }
 
-private: System::Void helpToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) { MessageBox::Show("Работа с программой:"); }
+private: System::Void helpToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	MessageBox::Show(
+		"Руководство пользователя\n\n"
+		"1. Добавление лабораторной работы:\n"
+		"- Откройте меню 'Добавить работу'\n"
+		"- Введите название лабораторной\n"
+		"- Укажите дедлайн выполнения\n"
+		"- Выберите папку с файлами работы\n"
+		"- Отметьте требуемые материалы (код, отчет, схемы и т.д.)\n"
+		"- Нажмите OK для сохранения\n\n"
+
+		"2. Контроль выполнения:\n"
+		"- После добавления система автоматически проверяет наличие файлов\n"
+		"- Статус работы обновляется автоматически\n"
+		"- Красный цвет — ошибка или отсутствие файлов\n"
+		"- Желтый — работа не готова\n"
+		"- Зеленый — работа выполнена\n\n"
+
+		"3. Сдача работы:\n"
+		"- Дважды щелкните по записи\n"
+		"- Подтвердите сдачу через диалоговое окно\n"
+		"- При отсутствии файлов сдача будет отклонена\n\n"
+
+		"4. Управление:\n"
+		"- Удаление работ доступно через меню\n"
+		"- Данные сохраняются автоматически в JSON-файл\n\n"
+
+		"Система предназначена для автоматизации учета и контроля лабораторных работ.",
+		"Help",
+		MessageBoxButtons::OK,
+		MessageBoxIcon::Information
+	);
+}
 
 private: System::Void УдалитьРаботуToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) { JsonStorage::RemoveSelectedItem(listView1, "1tgf.json"); }
 
@@ -158,11 +190,17 @@ private: System::Void MyForm_Resize(System::Object^ sender, System::EventArgs^ e
 
 private: System::Void ghToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 	MessageBox::Show(
-		"Это программа для учета лабораторных работ.\n\n"
-		"Функции:\n"
-		"- Добавление лабораторных\n"
-		"- Просмотр статуса\n"
-		"- Открытие папок",
+		"Автоматизированное рабочее место (АРМ) контроля лабораторных работ\n\n"
+		"Назначение системы:\n"
+		"Программа предназначена для учета, хранения и автоматической проверки выполнения лабораторных работ студентов.\n\n"
+		"Основные возможности:\n"
+		"- Ведение списка лабораторных работ с параметрами (название, дедлайн, комментарий, путь к файлам)\n"
+		"- Хранение данных в JSON-формате с автоматической синхронизацией\n"
+		"- Автоматическая проверка выполнения на основе наличия файлов (код, отчет, схемы, IDEF0)\n"
+		"- Отображение статуса выполнения с цветовой индикацией\n"
+		"- Возможность ручного подтверждения сдачи работы\n\n"
+		"Принцип работы:\n"
+		"Система анализирует содержимое указанной директории и автоматически обновляет статус лабораторной работы без участия пользователя.",
 		"Справка",
 		MessageBoxButtons::OK,
 		MessageBoxIcon::Information
@@ -269,14 +307,14 @@ private: System::Void listView1_DoubleClick(System::Object^ sender, System::Even
 				return;
 			}
 
-			selectedItem->SubItems[Status]->Text = "done";
+			selectedItem->SubItems[Status]->Text = "Выполнено";
 			selectedItem->BackColor = System::Drawing::Color::LightGreen;
 
 			JsonStorage::SaveListViewToJsonManual(listView1, "1tgf.json");
 		}
 		else if (statusChange == System::Windows::Forms::DialogResult::Cancel)
 		{
-			selectedItem->SubItems[Status]->Text = "not";
+			selectedItem->SubItems[Status]->Text = "Не выполнено";
 			selectedItem->BackColor = System::Drawing::Color::Yellow;
 
 			JsonStorage::SaveListViewToJsonManual(listView1, "1tgf.json");

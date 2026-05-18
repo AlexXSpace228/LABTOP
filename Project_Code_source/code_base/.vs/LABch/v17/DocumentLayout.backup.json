@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\LabService.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|solutionrelative:LabService.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\Models.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|solutionrelative:Models.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\MAIN_Form.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|solutionrelative:MAIN_Form.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\Models.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|solutionrelative:Models.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\MAIN_Form.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|solutionrelative:MAIN_Form.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\LabService.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|solutionrelative:LabService.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\JsonStorage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -29,6 +33,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\JsonStorage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|solutionrelative:JsonStorage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\1tgf.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:1tgf.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\MAIN_Form.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|solutionrelative:MAIN_Form.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\INPUT_LAB_Form.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{0AF1E732-1B72-FE9D-405A-E4C422879144}|bebe.vcxproj|solutionrelative:INPUT_LAB_Form.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,81 +54,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Models.h",
-              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\Models.h",
-              "RelativeDocumentMoniker": "Models.h",
-              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\Models.h",
-              "RelativeToolTip": "Models.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-18T08:02:09.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MyForm.cpp",
-              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\MyForm.cpp",
-              "RelativeDocumentMoniker": "MyForm.cpp",
-              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\MyForm.cpp",
-              "RelativeToolTip": "MyForm.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-17T08:45:25.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JsonStorage.h",
-              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\JsonStorage.h",
-              "RelativeDocumentMoniker": "JsonStorage.h",
-              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\JsonStorage.h",
-              "RelativeToolTip": "JsonStorage.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-17T08:44:55.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "INPUT_LAB_Form.h",
-              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\INPUT_LAB_Form.h",
-              "RelativeDocumentMoniker": "INPUT_LAB_Form.h",
-              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\INPUT_LAB_Form.h",
-              "RelativeToolTip": "INPUT_LAB_Form.h",
-              "ViewState": "AgIAAAwBAAAAAAAAAAAwwF0BAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-17T08:44:40.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JsonStorage.cpp",
-              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\JsonStorage.cpp",
-              "RelativeDocumentMoniker": "JsonStorage.cpp",
-              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\JsonStorage.cpp",
-              "RelativeToolTip": "JsonStorage.cpp",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAwwLsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-17T08:23:37.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LabService.h",
-              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\LabService.h",
-              "RelativeDocumentMoniker": "LabService.h",
-              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\LabService.h",
-              "RelativeToolTip": "LabService.h",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAhwFkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-18T08:01:28.734Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -121,9 +64,139 @@
               "RelativeDocumentMoniker": "MAIN_Form.h",
               "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\MAIN_Form.h",
               "RelativeToolTip": "MAIN_Form.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIBAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABgBAAAAAAAAAAAIwEUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-18T08:01:20.031Z"
+              "WhenOpened": "2026-05-18T09:05:07.536Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyForm.cpp",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\MyForm.cpp",
+              "RelativeDocumentMoniker": "MyForm.cpp",
+              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\MyForm.cpp",
+              "RelativeToolTip": "MyForm.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-18T16:22:22.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "INPUT_LAB_Form.h",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\INPUT_LAB_Form.h",
+              "RelativeDocumentMoniker": "INPUT_LAB_Form.h",
+              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\INPUT_LAB_Form.h",
+              "RelativeToolTip": "INPUT_LAB_Form.h",
+              "ViewState": "AgIAADABAAAAAAAAAAAIwF0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-18T16:01:51.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MAIN_Form.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\MAIN_Form.h",
+              "RelativeDocumentMoniker": "MAIN_Form.h",
+              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\MAIN_Form.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MAIN_Form.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-18T10:44:28.425Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "1tgf.json",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\1tgf.json",
+              "RelativeDocumentMoniker": "1tgf.json",
+              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\1tgf.json",
+              "RelativeToolTip": "1tgf.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-18T09:35:45.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MAIN_Form.resx",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\MAIN_Form.resx",
+              "RelativeDocumentMoniker": "MAIN_Form.resx",
+              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\MAIN_Form.resx",
+              "RelativeToolTip": "MAIN_Form.resx",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-05-18T09:35:17.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "INPUT_LAB_Form.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\INPUT_LAB_Form.h",
+              "RelativeDocumentMoniker": "INPUT_LAB_Form.h",
+              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\INPUT_LAB_Form.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "INPUT_LAB_Form.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-18T09:21:34.787Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LabService.h",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\LabService.h",
+              "RelativeDocumentMoniker": "LabService.h",
+              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\LabService.h",
+              "RelativeToolTip": "LabService.h",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAIwKgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-18T09:21:30.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Models.h",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\Models.h",
+              "RelativeDocumentMoniker": "Models.h",
+              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\Models.h",
+              "RelativeToolTip": "Models.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-18T08:02:09.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JsonStorage.h",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\JsonStorage.h",
+              "RelativeDocumentMoniker": "JsonStorage.h",
+              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\JsonStorage.h",
+              "RelativeToolTip": "JsonStorage.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-17T08:44:55.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JsonStorage.cpp",
+              "DocumentMoniker": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\JsonStorage.cpp",
+              "RelativeDocumentMoniker": "JsonStorage.cpp",
+              "ToolTip": "E:\\Documents\\GitHub\\LABTOP\\Project_Code_source\\code_base\\JsonStorage.cpp",
+              "RelativeToolTip": "JsonStorage.cpp",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAIwLsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-17T08:23:37.769Z",
+              "EditorCaption": ""
             }
           ]
         }

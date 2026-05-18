@@ -87,7 +87,7 @@ public:
 		//Если путь некорректен: статус = "not", задача = "INVALID PATH", строка подсвечивается красным цветом
 		if (!validPath)
 		{
-			item->SubItems[Status]->Text = "not";
+			item->SubItems[Status]->Text = "Не выполнено";
 			item->SubItems[PAth]->Text = "INVALID PATH";
 			item->BackColor = Color::Red;
 			return;
@@ -101,7 +101,7 @@ public:
 
 		if (!hasAnyRequirement)
 		{
-			item->SubItems[Status]->Text = "not";
+			item->SubItems[Status]->Text = "Не выполнено";
 			item->SubItems[Task]->Text = "Готово к сдаче";
 			item->BackColor = Color::LightYellow;
 			return;
@@ -144,7 +144,7 @@ public:
 		if (missing == 0 && hasAnyRequirement && validPath)
 		{
 			// если уже сдано вручную — не трогаем
-			if (item->SubItems[Status]->Text == "done")
+			if (item->SubItems[Status]->Text == "Выполнено")
 			{
 				item->BackColor = Color::LightGreen;
 				item->SubItems[Task]->Text = "Сдано";
@@ -160,9 +160,10 @@ public:
 		}
 		else
 		{
-			item->SubItems[Status]->Text = "not";
+			item->SubItems[Status]->Text = "Не выполнено";
 			item->SubItems[Task]->Text = task;
 			item->BackColor = Color::Yellow;
 		}
 	}
+
 };
