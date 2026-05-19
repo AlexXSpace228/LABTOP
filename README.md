@@ -1,9 +1,10 @@
 # 🎓 LabTop: Система мониторинга лабораторных работ
 
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge\&logo=c%2B%2B\&logoColor=white)
-![Windows Forms](https://img.shields.io/badge/Windows%20Forms-512BD4?style=for-the-badge\&logo=.net\&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-Storage-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge)
+![status](https://img.shields.io/badge/status-released-success)
+![platform](https://img.shields.io/badge/platform-Windows-blue)
+![language](https://img.shields.io/badge/language-C%2B%2B%2FCLI-purple)
+![storage](https://img.shields.io/badge/storage-JSON-orange)
+![version](https://img.shields.io/badge/version-1.0-brightgreen)
 
 **LabTop** — desktop-приложение для управления лабораторными работами, написанное на **C++/CLI + Windows Forms**.
 Система автоматизирует контроль файлов лабораторных, отслеживает готовность работ, проверяет структуру директорий и хранит данные локально в JSON-файле.
